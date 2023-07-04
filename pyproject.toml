@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oruemdojang-backend"
+version = "0.1.0"
+description = ""
+authors = ["finn.h <finn.h@kakaocorp.com>"]
+readme = "README.md"
+packages = [{include = "oruemdojang_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
